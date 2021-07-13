@@ -14,6 +14,7 @@ describe('#scrabble') do
     word = Word.new('danes')
     expect(word.scrabble).to(eq(6))
   end
-  it("")
+  it("returns a scrabble score for a word containing 1-, 2-, and 3-point letters") do
+    word = Word.new('damp')
 
 end

@@ -12,6 +12,8 @@ class Word
       count +=2;
       elsif element =~ /b|c|m|p/
       count +=3;
+      elsif element =~ /f|h|v|w|y/
+      count +=4
       end
     end
       return count;
